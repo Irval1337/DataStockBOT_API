@@ -19,4 +19,5 @@
 Документация LUA API в GitHub Wiki - <https://yandex.ru>
 Примеры LUA скриптов - <https://google.com/>
 ```
-Авторы проекта: @Irval1337
+Авторы проекта: Irval1337 (TG: @Irval1337, VK: https://irval26)
+При поддержке форума SMM продвижения в социальных сетях [DataStock.biz]<https://datastock.biz>

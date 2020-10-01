@@ -16,8 +16,8 @@
 ---
 # Документация API
 ```
-Документация LUA API в GitHub Wiki - <https://yandex.ru>
-Примеры LUA скриптов - <https://google.com/>
+Документация LUA API в GitHub Wiki - https://github.com/Irval1337/DataStockBOT_API/wiki
+Примеры LUA скриптов - https://github.com/Irval1337/DataStockBOT_API
 ```
 Авторы проекта: Irval1337 (TG: @Irval1337, VK: https://irval26)
 При поддержке форума SMM продвижения в социальных сетях [DataStock.biz]<https://datastock.biz>

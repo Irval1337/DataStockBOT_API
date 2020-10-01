@@ -19,4 +19,4 @@
 Документация LUA API в GitHub Wiki - <https://yandex.ru>
 Примеры LUA скриптов - <https://google.com/>
 ```
-Авторы проекта: #Irval1337
+Авторы проекта: @Irval1337

@@ -4,11 +4,11 @@
 local json = require 'json'
 
 UI:Initialize()
-local panel = UI:Panel(240, 190, 40, 100, 25)
-local label = UI:Label('Enter nickname UserID', 12.0, 15, 20, panel)
-local textbox = UI:TextBox('Nickname', 11.0, 200, 22, 15, 55, 15, panel)
-local button = UI:Button('Resolve', 125, 30, 17, 105, 'filled_2', 10.0, panel)
-local labelID = UI:Label('UserID:null Type:null', 10.0, 15, 150, panel)
+local panel = UI:Panel(235, 180, 40, 100, 25)
+local label = UI:Label('Enter nickname UserID', 11.0, 15, 20, panel)
+local textbox = UI:TextBox('Nickname', 10.0, 200, 22, 15, 50, 15, panel)
+local button = UI:Button('Resolve', 125, 29, 33 + 17, 95, 'filled_2', 9.0, panel)
+local labelID = UI:Label('UserID:null Type:null', 9.5, 15, 145, panel)
 
 local function onClick()
 	local text = textbox.Text

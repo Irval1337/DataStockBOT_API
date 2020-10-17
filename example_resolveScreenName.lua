@@ -7,7 +7,7 @@ UI:Initialize()
 local panel = UI:Panel(235, 180, 40, 100, 25)
 local label = UI:Label('Enter nickname UserID', 11.0, 15, 20, panel)
 local textbox = UI:TextBox('Nickname', 10.0, 200, 22, 15, 50, 15, panel)
-local button = UI:Button('Resolve', 125, 29, 33 + 17, 95, 'filled_2', 9.0, panel)
+local button = UI:Button('Resolve', 125, 29, 51, 95, 'filled_2', 9.0, panel)
 local labelID = UI:Label('UserID:null Type:null', 9.5, 15, 145, panel)
 
 local function onClick()
@@ -21,4 +21,12 @@ local function onClick()
 	end
 end
 
-UI:AddOnClick(button, onClick)
+local function onClickProtected()
+    if pcall(onClick) then
+        UI:Alert('Successfully', 'Success')
+     else
+        UI:Alert('An error has occurred', 'Error')
+     end
+end
+
+UI:AddOnClick(button, onClickProtected)

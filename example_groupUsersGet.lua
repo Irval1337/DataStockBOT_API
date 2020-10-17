@@ -22,13 +22,8 @@ local function onClick()
 		local response = VK:SendRequest('utils.resolveScreenName', '5.124', 'screen_name='..text, nil)
 		local data = json.decode(response)
 
-		if data['type'] == ('group' or 'page')  then
-			if checkbox.Checked then
-				response = VK:SendRequest('groups.getMembers', '5.124', 'group_id='..data['object_id']..'&sort=time_desc&offset=0&count=1000&fields=name&lang=en', nil)
-			else
-				response = VK:SendRequest('groups.getMembers', '5.124', 'group_id='..data['object_id']..'&sort=time_asc&offset=0&count=1000&fields=name&lang=en', nil)
-			end
-
+		if data['type'] == ('group' or 'page')  then		
+			response = VK:SendRequest('groups.getMembers', '5.124', 'group_id='..data['object_id']..'&sort='..(checkbox.Checked and 'time_desc' or 'time_asc')..'&offset=0&count=1000&fields=name&lang=en', nil)
 			data = json.decode(response)
 			richtextbox.Text = ''
 			label2.Text = 'Users ('..data['count']..')'

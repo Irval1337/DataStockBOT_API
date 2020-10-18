@@ -21,4 +21,4 @@
 Примеры LUA скриптов - https://github.com/Irval1337/DataStockBOT_API
 ```
 Авторы проекта: Irval1337 (TG: [@Irval1337](https://t.me/Irval1337), VK: <https://vk.com/irval26>)
-При поддержке форума SMM продвижения в социальных сетях [DataStock.biz](https://datastock.biz)
+<br>При поддержке форума SMM продвижения в социальных сетях [DataStock.biz](https://datastock.biz)</br>

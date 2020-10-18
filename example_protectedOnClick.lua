@@ -1,7 +1,7 @@
 -- Пример скрипта, используещего безопасный вызов и установку метода button.OnClick
 
 UI:Initialize()
-local button = UI:Button('Resolve', 125, 29, 51, 95, 'filled_2', 9.0, nil)
+local button = UI:Button('Button', 125, 29, 51, 95, 'filled_2', 9.0, nil)
 
 local function onClick()
 	UI:Message('Test', 'Message')
